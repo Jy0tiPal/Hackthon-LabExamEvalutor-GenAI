@@ -1,0 +1,38 @@
+{
+    "exam": "Object Oriented Programming with Java",
+    "total_marks": 40,
+    "sections": [
+        {
+            "section": "Class Design + Menu Driven",
+            "maximum_marks": 4
+        },
+        {
+            "section": "Add Employee + Validation",
+            "maximum_marks": 6
+        },
+        {
+            "section": "Add Bonus + Validation",
+            "maximum_marks": 6
+        },
+        {
+            "section": "Deduct Salary + Validation",
+            "maximum_marks": 6
+        },
+        {
+            "section": "Print All Employees",
+            "maximum_marks": 3
+        },
+        {
+            "section": "Display by Department",
+            "maximum_marks": 3
+        },
+        {
+            "section": "Transaction History",
+            "maximum_marks": 5
+        },
+        {
+            "section": "Top K Employees",
+            "maximum_marks": 5
+        }
+    ]
+}

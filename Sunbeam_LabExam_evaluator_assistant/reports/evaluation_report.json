@@ -1,0 +1,64 @@
+{
+    "evaluation": [
+        {
+            "section": "Class Design + Menu Driven",
+            "marks_awarded": 2,
+            "maximum_marks": 4,
+            "evidence": "The code has a basic class design with Employee, EmployeeManagement, Program, Reports, and TopKemplo classes. However, the menu-driven functionality is not fully implemented.",
+            "evaluator_comments": "The class design is partially correct, but the menu-driven functionality is incomplete. The code does not handle all the menu options correctly."
+        },
+        {
+            "section": "Add Employee + Validation",
+            "marks_awarded": 4,
+            "maximum_marks": 6,
+            "evidence": "The EmployeeManagement class has an addEmployee method that checks for duplicate empId and throws a Custom_exception if it already exists.",
+            "evaluator_comments": "The validation for adding an employee is correct, but it does not handle other potential errors such as invalid input."
+        },
+        {
+            "section": "Add Bonus + Validation",
+            "marks_awarded": 0,
+            "maximum_marks": 6,
+            "evidence": "There is no implementation for adding a bonus or its validation.",
+            "evaluator_comments": "The code does not have any implementation for adding a bonus or its validation."
+        },
+        {
+            "section": "Deduct Salary + Validation",
+            "marks_awarded": 0,
+            "maximum_marks": 6,
+            "evidence": "There is no implementation for deducting a salary or its validation.",
+            "evaluator_comments": "The code does not have any implementation for deducting a salary or its validation."
+        },
+        {
+            "section": "Print All Employees",
+            "marks_awarded": 2,
+            "maximum_marks": 3,
+            "evidence": "The Reports class has a printAllEmployees method that prints all employees.",
+            "evaluator_comments": "The method to print all employees is correct, but it does not handle potential errors such as an empty list of employees."
+        },
+        {
+            "section": "Display by Department",
+            "marks_awarded": 1,
+            "maximum_marks": 3,
+            "evidence": "The Reports class has a printEmployeesByDept method, but it has a logical error in the condition to check the department.",
+            "evaluator_comments": "The method to display employees by department is partially correct, but it has a logical error in the condition to check the department."
+        },
+        {
+            "section": "Transaction History",
+            "marks_awarded": 0,
+            "maximum_marks": 5,
+            "evidence": "There is no implementation for maintaining or displaying transaction history.",
+            "evaluator_comments": "The code does not have any implementation for maintaining or displaying transaction history."
+        },
+        {
+            "section": "Top K Employees",
+            "marks_awarded": 3,
+            "maximum_marks": 5,
+            "evidence": "The TopKemplo class has a topkEmployees method that sorts employees by salary and prints the top k employees.",
+            "evaluator_comments": "The method to display the top k employees is partially correct, but it does not handle potential errors such as an invalid value of k."
+        }
+    ],
+    "overall_comment": "The code has a basic structure, but it lacks complete implementation of the required functionality and has several logical errors. It also does not handle potential errors and exceptions properly.",
+    "student_id": "10001",
+    "total_marks": 12,
+    "maximum_marks": 40
+}
